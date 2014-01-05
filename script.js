@@ -49,3 +49,27 @@ function list (){
         printPerson(contacts[i]);
     }
 }
+
+
+// add function to search if someone is in the list:
+
+function search(lastName){
+	var contactsLength = contacts.length;
+	for (var i = 0; i < contacts.length; i++ ){
+		if (lastName == contacts[i].lastName){
+			printPerson(contacts[i])
+		}
+	}
+}
+
+
+search("Silbersmith")
+// how would you put something else if name didn't exist:  such as would you like to search
+// for someone else?
+
+
+
+
+
+
+
