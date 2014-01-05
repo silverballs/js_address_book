@@ -68,6 +68,23 @@ search("Silbersmith")
 // for someone else?
 
 
+// create a function for adding a contact:
+// remember that contacts.length will equal one more than the objects in there so
+// you can set the new contact equal the the length! wahooooo
+function add (firstName, lastName, email, phoneNumber){
+	contacts[contacts.length] = {
+    firstName: firstName,
+    lastName: lastName,
+    phoneNumber: phoneNumber,
+    email: email
+};
+
+}
+
+// try adding someone
+add("drew", "smith", "drew@drewsmith.com", "123-456-78790");
+list(); //make sure the add function worked
+
 
 
 
