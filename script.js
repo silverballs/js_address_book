@@ -37,5 +37,15 @@ function printPerson(person){
 
 // using the function:
 
-printPerson(andrew);
-printPerson(myMother);
+// printPerson(andrew);
+// printPerson(myMother);
+
+// creating a function that allows you to list all the contacts 
+// this will need to loop through the contacts and use the printPerson function
+
+function list (){
+    var contactsLength = contacts.length;
+    for (i = 0; i < contacts.length; i++){
+        printPerson(contacts[i]);
+    }
+}
