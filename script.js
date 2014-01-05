@@ -29,3 +29,13 @@ var contacts = [andrew, myMother]
 // making sure you can access your contacts do:
 console.log(contacts[1]) // this will access myMother through the array;
 
+// Create a function to print a persons name(first and last) 
+
+function printPerson(person){
+	console.log(person.firstName + " " + person.lastName);
+};
+
+// using the function:
+
+printPerson(andrew);
+printPerson(myMother);
