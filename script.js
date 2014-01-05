@@ -45,7 +45,7 @@ function printPerson(person){
 
 function list (){
     var contactsLength = contacts.length;
-    for (i = 0; i < contacts.length; i++){
+    for (i = 0; i < contactsLength; i++){
         printPerson(contacts[i]);
     }
 }
